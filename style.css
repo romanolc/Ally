@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  background: #f4fdfd;
+  color: #03324a;
+  line-height: 1.6;
+}
+
+header {
+  text-align: center;
+  padding: 2rem 1rem;
+  background: linear-gradient(90deg, #a8e6cf, #fff3b0, #a0c4ff);
+  border-bottom: 4px solid #72bcd4;
+}
+
+.logo {
+  width: 120px;
+  margin-bottom: 1rem;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+.slogan {
+  font-style: italic;
+  color: #066c84;
+  font-weight: bold;
+}
+
+section {
+  padding: 2rem;
+  max-width: 1000px;
+  margin: auto;
+}
+
+section h2 {
+  color: #045c6b;
+  border-left: 6px solid #72bcd4;
+  padding-left: 10px;
+  margin-bottom: 1rem;
+}
+
+ul {
+  margin-left: 1.5rem;
+  list-style-type: disc;
+}
+
+.graficos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 1rem;
+}
+
+.grafico {
+  width: 320px;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.card {
+  background: #fff;
+  padding: 1rem 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  margin: 1.2rem 0;
+  border-left: 6px solid #a0c4ff;
+}
+
+#map {
+  width: 100%;
+  height: 400px;
+  border-radius: 12px;
+  margin-top: 1rem;
+}
+
+.mapa-info {
+  text-align: center;
+  margin-top: 0.5rem;
+  color: #066c84;
+  font-style: italic;
+}
+
+footer {
+  background: #a0c4ff;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 3rem;
+  color: #03324a;
+  font-weight: bold;
+}
